@@ -1,0 +1,152 @@
+/* Uminasara
+    COLORTHEME
+    006466
+    065A60
+    0B525B
+    144552
+    1B3A4B
+    212F45
+    272640
+    312244
+    3E1F47
+    4D194D*/
+    body
+    {
+        font-size: medium;
+        font-weight:normal;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /*header*/
+#header img
+{
+width: 200px;
+margin-left: 50px;
+
+}
+.navbar
+{
+    background-color: #065a60;
+    color:white;
+    
+    
+}
+.navbar-nav a
+{
+    color: #1B3A4B;
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-right: 100px;
+    
+}
+/*slider*/
+.carousel-inner{
+    height:500px ;
+}
+.carousel-caption{
+    top: 15%;
+    left: 10%;
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.carousel-caption p{
+    font-size: 20px;
+
+}
+#whatwehave
+{
+    
+    margin: 30px;
+    text-align: center;
+}
+#whatwehave p{
+    text-align: justify;
+    
+}
+
+/*gallery*/
+#gallery1
+{
+  margin-bottom: auto;
+}
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+   
+    .footer{
+      padding: 20px 50px;
+      background-color: #065a60;
+      padding-bottom: 50px;
+  }
+  hr{
+      width: 100%;
+      border: 0;
+      border-top: 1px solid #95D5B2;
+  }
+  .footer-left{
+      margin-top: 50px;
+  }
+  .link-titles{
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: #95D5B2;
+  
+  }
+  .link-titles h4{
+      color: #74C69D;
+      margin-bottom: 10px;
+  }
+  .footer-right{
+      margin-top: 50px;
+      color: #74C69D;
+  }
+  .footer-logo img{
+      width: 80px;
+  }
+  .footer h4{
+      margin-bottom: 10px;
+  }
+  .footer .social-icons i{
+      margin: 10px;
+      font-size:20px;
+  }
+  #footer-menu a{
+      list-style: none;
+      color: #74C69D;
+  }
+  #footer-menu li{
+      margin-top:5px;
+      margin-left: -5px;
+  }
